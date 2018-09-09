@@ -2,36 +2,20 @@
 <html>
 
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>VGPortfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css" />
-  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <title>VictoriaGonzalez</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet">
+  <link rel="stylesheet" href="css/minireset.min.css">
+
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/victoria.css">
 </head>
 
 <body>
-  <!-- Header Section
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <header id="header">
-    <!-- Portfolio photo
-    <div class="content">
-        <aside class="side">
-            <figure id="picture" class="picture">
-            <div class="picture-shadow"></div>
-            <img id="pictureImage" class="picture-image"
-                    src="images/Victoria.jpg"
-                    srcset="images/Victoria.jpg 1x,
-                            images/Victoria@2x.jpg 2x,
-                            images/Victoria@3x.jpg 3x,
-                            images/Victoria@4x.jpg 4x"
-                    alt="Victoria M Gonzalez"
-                    width="320"
-                    height="320">
-            </figure>
-        </aside>
-    </div> -->
-
     <div class="main_nav">
       <div class="container">
         <div class="mobile-toggle"> <span></span> <span></span> <span></span> </div>
@@ -46,51 +30,91 @@
       </div>
     </div>
 
-    <div class="title">
-      <div><span class="typcn typcn-heart-outline icon heading"></span></div>
-      <div class="smallsep heading"></div>
-      <h1 class="heading"> Victoria M Gonzalez</h1>
-      <h2 class="heading">Full-Stack Web Developer</h2>
-      <a class="smoothscroll" href="#about">
-        <div class="mouse">
-          <div class="wheel"></div>
+    <div id="wallpaper" class="wallpaper" data-image="images/tokyo.jpg"></div>
+    <div class="content">
+      <aside class="side">
+        <figure id="picture" class="picture">
+          <div class="picture-shadow"></div>
+          <img id="pictureImage" class="picture-image" src="images/Victoria.jpg" srcset="images/Victoria.jpg 1x,
+                       images/Victoria@2x.jpg 2x,
+                       images/Victoria@3x.jpg 3x,
+                       images/Victoria@4x.jpg 4x"
+            alt="Portrait of Victoria M Gonzalez" width="320" height="320">
+        </figure>
+      </aside>
+      <main class="about">
+        <h1 class="name">
+          VICTORIA M GONZALEZ
+        </h1>
+        <p class="job">
+          Full Stack Web Developer
+        </p>
+        <hr class="hr">
+        <div class="description">
+          <p>
+            Developing the web, one app at a time
+          </p>
         </div>
-      </a> </div>
+        <div class="contact">
+          <a class="button">
+            Get in touch
+          </a>
+        </div>
+
+        <ul class="social">
+          <a href="https://github.com/victoriagoesplaces" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/victoriagoesplaces/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/victoriagoesplaces/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://twitter.com/vmjgr" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </ul>
+      </main>
+    </div>
     <a class="smoothscroll" href="#about">
       <div class="scroll-down"></div>
-    </a> </header>
+    </a>
+
+  </header>
 
   <!-- About Section
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
   <section id="about">
     <div class="container">
       <div class="row">
         <h1>About Me</h1>
+        <hr class="hr">
         <div class="block"></div>
-
       </div>
       <div class="row">
-        <div class="six columns">
-          <!-- <h3><span class="typcn typcn-pen icon"></span>Our Approach</h3> -->
-          <p> My name is Victoria Gonzalez. I am a certified Full Stack Developer with a background in Hotel Management and
-            Business Administration. Experienced in web development technology, with a proven ability to work independently
-            or as part of a team. Strong verbal and written communication skills in English and Spanish. Successfully able
-            to thrive in a world of constant change and have a passion for learning new skills and technologies.
-          </p>
-        </div>
+        <!-- <div class="six columns"> -->
+        <img class="photo" src="images/Victoria.jpg" srcset="images/Victoria.jpg 1x,
+          images/Victoria@2x.jpg 2x,
+          images/Victoria@3x.jpg 3x,
+          images/Victoria@4x.jpg 4x"
+          alt="aboutMePhoto">
 
-        <div class="six columns">
-          <!-- <h3><span class="typcn typcn-cog-outline icon"></span>Goals</h3> -->
-          <p>
-            I enjoy attending sporting events, and of course rooting for Orlando City SC or Tampa Bay Lightning. Let's not forget homebrewing
-            beer, and traveling the world.
-            <br>
-            <br>Feel free to check out my Portfolio below and see some of my web development work. If you are interested
-            to learn more about me, check out my social media links or contact me by filling up the form on contact section
-            and I will get back at you!
+        <p> My name is Victoria Gonzalez. I am a certified Full Stack Developer with a background in Hotel
+          Management and Business Administration. Experienced in web development technology, with a proven ability to
+          work independently or as part of a team. Strong verbal and written communication skills in English and Spanish.
+          Successfully able to thrive in a world of constant change and have a passion for learning new skills and technologies.
           </p>
-        </div>
+        <!-- </div>
+        <div class="six columns"> -->
+          <p> 
+          I enjoy attending sporting events, and of course rooting for Orlando City SC or Tampa Bay Lightning.
+          Let's not forget homebrewing beer, and traveling the world.
+          Feel free to check out my Portfolio below and see some of my web development work. If you are
+          interested to learn more about me, check out my social media links or contact me by filling up the form on
+          contact
+          section and I will get back at you!
+        </p>
       </div>
     </div>
     </div>
@@ -98,59 +122,35 @@
   </section>
 
 
-  <!-- Portfolio Section
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
- <!-- <section id="portfolio">
+  <!-- Portfolio Section
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <section id="portfolio">
     <div class="container">
       <h1>Portfolio</h1>
+      <hr class="hr">
       <div class="block"></div>
-      <div class="row">
-          <div class="grid">
-            <figure class="effect-ming">
-              <img src="./portfolio_images/bamazon.png" alt="img09"/>
-              <figcaption>
-                <h2>Project <span>One</span></h2>
-                <p>Project description/technologies used</p>
-                <a href="#!">View more</a>
-              </figcaption>			
-            </figure>
+      <section>
+        <div class="six columns"> <img src="./images/portfolioImages/workout.jpg" class="image" alt="Work One" /></div>
+        <div class="six columns"> <img src="./images/portfolioImages/crystal.jpg" class="imageTwo" alt="Work Two" /></div>
+        <!-- <div class="three columns"> <img src="http://placehold.it/220x220" class="image" alt="Work Three"/></div>
+        <div class="three columns"> <img src="http://placehold.it/220x220" class="image" alt="Work Four"/></div> -->
 
-            <figure class="effect-ming">
-              <img src="./portfolio_images/crystal.jpg" alt="img08"/>
-              <figcaption>
-                <h2>Project <span>Two</span></h2>
-                <p>Project description/technologies used</p>
-                <a href="#!">View more</a>
-              </figcaption>			
-            </figure>
-
-            <figure class="effect-ming">
-                <img src="./portfolio_images/cityclippers.png" alt="img09"/>
-                <figcaption>
-                  <h2>Project <span>Three</span></h2>
-                  <p>Project description/technologies used</p>
-                  <a href="#!">View more</a>
-                </figcaption>			
-              </figure>
-              
-              <figure class="effect-ming">
-                <img src="./portfolio_images/train.png" alt="img08"/>
-                <figcaption>
-                  <h2>Project <span>Four</span></h2>
-                  <p>Project description/technologies used</p>
-                  <a href="#!">View more</a>
-                </figcaption>			
-              </figure>
-          </div>
-      </div>
-  </section>  -->
+        <div class="six columns"> <img src="./images/portfolioImages/cityclippers.jpg" class="image" alt="Work Five" /></div>
+        <div class="six columns"> <img src="./images/portfolioImages/train.jpg" class="imageTwo" alt="Work Six" /></div>
+        <!-- <div class="three columns"> <img src="http://placehold.it/220x220" class="image" alt="Work Seven"/></div>
+        <div class="three columns"> <img src="http://placehold.it/220x220" class="image" alt="Work Eight"/></div> -->
+      </section>
+    </div>
+  </section>
 
   <!-- Contact Section
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <section id="contact">
     <div class="container">
       <h1>Contact</h1>
+      <hr class="hr">
       <div class="block"></div>
       <div class="social">
         <a href="https://github.com/victoriagoesplaces" target="_blank">
@@ -193,26 +193,35 @@
     </div>
   </section>
 
-  <!-- Footer Section
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <footer>
+  <!-- Footer Section–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- <footer>
     <div class="container">
-      <div class="nine columns">
+      <div class="nav">
         <p>&copy; Copyright 2018 Victoria M Gonzalez</p>
-
-      </div>
-      <div class="three columns"> <span class="typcn typcn-social-facebook-circular socialIcons"></span> <span class="typcn typcn-social-instagram-circular socialIcons"></span>
-        <span class="typcn typcn-social-google-plus-circular socialIcons"></span> <span class="typcn typcn-social-linkedin-circular socialIcons"></span>
       </div>
     </div>
-  </footer>
+  </footer> -->
+
+
+  <noscript>
+    <style type="text/css">
+      .wallpaper {
+        animation-name: zoomOut;
+      }
+
+      .picture {
+        animation-name: dropIn;
+      }
+    </style>
+  </noscript>
 
 
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
     crossorigin="anonymous"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
-  <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
-  <script src="js/main.js"></script>
+  <script defer type="text/javascript" src="js/main.js"></script>
+  <!-- <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script> -->
+
 </body>
 
 </html>
