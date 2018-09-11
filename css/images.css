@@ -14,7 +14,7 @@
 	float: left;
 	overflow: hidden;
 	margin: 10px 1%;
-	min-width: 460px;
+	min-width: 470px;
 	max-width: 480px;
 	max-height: 360px;
 	width: 48%;
@@ -84,11 +84,7 @@
 	font-size: 68.5%;
 }
 
-/* Individual effects */
-
-/*---------------*/
-/***** Jazz *****/
-/*---------------*/
+/* portfolio effects */
 
 figure.effect-jazz {
 	background: -webkit-linear-gradient(-45deg, #0f4fff52,  #00d0f8) 100%;
@@ -174,9 +170,3 @@ figure.effect-jazz:hover p {
 		width: 100%;
 	}
 }
-
-
-
-*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
-.clearfix:before, .clearfix:after { display: table; content: ''; }
-.clearfix:after { clear: both; } 

@@ -198,6 +198,10 @@ a {
     height: 14rem;
     width: 14rem;
   }
+
+  .social {
+    align-items: center;
+  }
 }
 
 @media screen and (min-width: 800px) {
