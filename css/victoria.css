@@ -1,33 +1,33 @@
 html {
   background-color: #151425;
-  background-image: linear-gradient(to bottom right, #b30077, #ff470f);
+  background-image: linear-gradient(to right, #0f4fff,  #00d0f8);
   background-image: none;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Share', cursive;
+
 }
 
 .wallpaper {
-  background-image: url("../images/nashville.JPG");
+  background-image: url("../images/lakePlacid.jpg");
 }
 
 .hr {
-  background-image: linear-gradient(to right, #973bfb, #00d0f8);
-  background-image: linear-gradient(to right, #ff470f, #ffe479);
+  /* background-image: linear-gradient(to right, #973bfb, #00d0f8); */
+  background-image: linear-gradient(to right, #0f4fff,  #00d0f8);
 }
 
 .button {
-  background-color: rgba(255, 71, 15, 0.1);
+  background-color: rgba(245, 245, 245, 0.24);
   background-image: none;
-  border-image: linear-gradient(to right, #ff470f, #ffe479);
   border-image-slice: 1;
   border-radius: 0;
   border-style: solid;
   border-width: 1px;
-  color: #ffe479;
+  color: #3441f3;
 }
 
 /* Social media icons */
 .social a {
-  color: #ffe479;
+  color:  #00d0f8;
 }
 
 .social a:hover {
@@ -54,7 +54,7 @@ h1{
 /* portfolio section */
 
 .image {
-	height: auto;
+  height: auto;
   position: relative;
   float:left;
   width: 45% ;
@@ -68,7 +68,6 @@ h1{
   padding: 8px;
   display: block
 }
-
 
 /* Header Section
 ********************************************************************* */
@@ -102,7 +101,7 @@ header {
 	margin-bottom: 30px;
 }
 .title h1 {
-	font-size: 70px;
+	font-size: 200%;
 	font-weight: 300;
 	text-transform: uppercase;
 	line-height: 0.85;
@@ -339,7 +338,6 @@ input[type="submit"] {
 	display: inline-block;
 	height: 38px;
 	padding: 0 30px;
-	color: #fff;
 	text-align: center;
 	font-size: 11px;
 	font-weight: 600;
@@ -348,13 +346,17 @@ input[type="submit"] {
 	text-transform: uppercase;
 	text-decoration: none;
 	white-space: nowrap;
-	background: #5fc3e4;
+	background:  rgba(245, 245, 245, 0.24);
+	border-image: linear-gradient(to right, #0f4fff,  #00d0f8);
+	border-image-slice: 1;
+	border-radius: 0;
+	border-style: solid;
+	border-width: 1px;
 	border-radius: 0px;
-	border: 0;
 	cursor: pointer;
 	box-sizing: border-box;
 }
-a[type="submit"]:hover {
+input [type="submit"]:hover {
 	text-decoration: none;
 }
 
@@ -371,7 +373,7 @@ button, .button {
 input, textarea, select, fieldset {
 	margin-bottom: 1.5rem;
 }
-pre, blockquote, dl, figure, table, p, ul, ol, form {
+pre, blockquote, dl, figure, table, p, ol, form {
 	margin-bottom: 2.5rem;
 }
 /* Utilities
@@ -395,14 +397,11 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 #about {
   padding-top: 12%;
   padding-bottom: 15%;
-  /* margin-bottom: 15% */
 }
 #portfolio {
   padding-top: 12%;
 }
-#contact {
-  padding-top: 12%;
-}
+
 
 /* Image */
 
