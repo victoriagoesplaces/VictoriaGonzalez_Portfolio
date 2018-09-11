@@ -3,7 +3,6 @@
 html {
   color: #fff;
   font-family: "Quicksand", sans-serif;
-  font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   line-height: 1.5;
@@ -33,7 +32,6 @@ a {
 
 .job,
 .button {
-  font-family: "Montserrat", "Quicksand", sans-serif;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
@@ -177,6 +175,11 @@ a {
   transform: scale(1.1);
 }
 
+.socialTwo {
+  text-align: center;
+  width: 2rem;
+  font-size: 1.5rem;
+}
 /* 4. Responsiveness */
 
 @media screen and (max-width: 799px) {
@@ -190,6 +193,10 @@ a {
   .side {
     margin-bottom: 3rem;
     width: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 14rem;
+    width: 14rem;
   }
 }
 
@@ -198,7 +205,7 @@ a {
     align-items: center;
     justify-content: space-around;
     justify-content: space-evenly;
-    padding: 4rem;
+    /* padding: 4rem; */
   }
 
   .side {

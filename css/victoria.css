@@ -30,17 +30,17 @@ html {
 }
 
 /* Social media icons */
-.social a {
+.social a, .socialTwo a {
   color:#63b0f8;
 }
 
-.social a:hover {
+.social a:hover, .socialTwo a:hover {
   color: #fff;
   opacity: 1;
   transform: scale(1.25);
 }
 
-.social a:active {
+.social a:active, .socialTwo a:active {
   opacity: 1;
   transform: scale(1.1);
 } 
@@ -389,21 +389,21 @@ pre, blockquote, dl, figure, table, p, ol, form {
 	max-width: 100%;
 	box-sizing: border-box;
 }
-.u-pull-right {
+/* .u-pull-right {
 	float: right;
 }
 .u-pull-left {
 	float: left;
-}
+} */
 
 /*  sections */
 #about {
   padding-top: 12%;
   padding-bottom: 15%;
 }
-#portfolio {
+/* #portfolio {
   padding-top: 12%;
-}
+} */
 
 
 /* Image */
