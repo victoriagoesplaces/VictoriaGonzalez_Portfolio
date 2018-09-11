@@ -11,23 +11,27 @@ html {
 }
 
 .hr {
-  /* background-image: linear-gradient(to right, #973bfb, #00d0f8); */
   background-image: linear-gradient(to right, #0f4fff,  #00d0f8);
 }
 
 .button {
   background-color: rgba(245, 245, 245, 0.24);
   background-image: none;
+  border-image: linear-gradient(to right, #0f4fff,  #00d0f8);
   border-image-slice: 1;
   border-radius: 0;
   border-style: solid;
   border-width: 1px;
-  color: #3441f3;
+  color:#63b0f8;
+}
+
+.aboutVG {
+	font-size: 1.0rem;
 }
 
 /* Social media icons */
 .social a {
-  color:  #00d0f8;
+  color:#63b0f8;
 }
 
 .social a:hover {
@@ -41,13 +45,10 @@ html {
   transform: scale(1.1);
 } 
 
-p{
-	font-size:110%;
-}
 h1{
   margin-top: 0;
-  margin-bottom: 2rem;
   font-weight: 300;
+  font-size: 1.6rem;
 }
 
 
@@ -149,7 +150,7 @@ header {
 	max-height: 50px;
 	z-index: 999;
 	width: 100%;
-	padding-top: 17px;
+	padding-top: 10px;
 	background: none;
 	overflow: hidden;
 	-webkit-transition: all 0.3s;
@@ -161,15 +162,17 @@ header {
 
 
 @media only screen and (max-width: 766px) {
-.main_nav {
-	padding-top: 25px;
-}
+/* .main_nav {
+	padding-bottom: 10%;
+} */
 }
 .open-nav {
 	max-height: 400px !important;
 }
 .sticky {
 	background-color: #000000bb;
+	color:#63b0f8;
+
 	opacity: 1;
 	top: 0px;
 }
@@ -241,7 +244,7 @@ nav ul a:hover {
 	width: 30px;
 	height: 4px;
 	margin-bottom: 6px;
-	background: #000000;
+  	background:#63b0f8;
 	display: block;
 }
 
