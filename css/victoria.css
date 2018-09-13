@@ -40,6 +40,10 @@ body {
   opacity: 1;
 }
 
+.socialTwo a {
+	margin-right: 3%;
+}
+
 .social a:hover, .socialTwo a:hover {
   color: #fff;
   opacity: 1;
@@ -48,7 +52,7 @@ body {
 
 .social a:active, .socialTwo a:active {
   opacity: 1;
-  transform: scale(1.1);
+  transform: scale(1.25);
 } 
 
 h1{
@@ -435,4 +439,25 @@ pre, blockquote, dl, figure, table, p, ol, form {
 	max-width: 12rem;
 	margin-right: 2%;
 }
+}
+
+
+.links {
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+	z-index: 2000 !important;
+}
+
+.links:hover {
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+	color: #63b0f8;
+}
+  
+.effect {
+	z-index: 2 !important;
 }

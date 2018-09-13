@@ -168,6 +168,18 @@ a {
   will-change: opacity, transform;
 }
 
+.socialTwo a {
+  align-items: center;
+
+  font-size: 1.5rem;
+  height: 2rem;
+  justify-content: center;
+  opacity: 0.5;
+  transition-property: opacity, transform;
+  width: 2rem;
+  will-change: opacity, transform;
+}
+
 .social a:hover {
   opacity: 1;
   transform: scale(1.25);
@@ -320,7 +332,7 @@ a {
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
 .grid figure figcaption > a {
-	z-index: 1000;
+	z-index: 100;
 	text-indent: 200%;
 	white-space: nowrap;
 	font-size: 0;
@@ -394,10 +406,12 @@ figure.effect-jazz h2 {
 }
 
 figure.effect-jazz p {
+  position: absolute;
 	padding: 0.5em 2em;
 	text-transform: none;
 	font-size: 0.85em;
-	opacity: 0;
+  opacity: 0;
+  z-index: 2000;
 }
 
 figure.effect-jazz:hover img {
@@ -432,3 +446,4 @@ figure.effect-jazz:hover p {
 		width: 100%;
 	}
 }
+
