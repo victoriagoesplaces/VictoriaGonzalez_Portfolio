@@ -422,7 +422,8 @@ pre, blockquote, dl, figure, table, p, ol, form {
   .photo {
     border-radius: 2904px;
     max-height: 10rem;
-    max-width: 10rem;
+	max-width: 10rem;    
+	margin-right: 4%;
 }
 }
 
@@ -431,6 +432,7 @@ pre, blockquote, dl, figure, table, p, ol, form {
   .photo {
     border-radius: 2904px;
     max-height: 12rem;
-    max-width: 12rem;
+	max-width: 12rem;
+	margin-right: 2%;
 }
 }
