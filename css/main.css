@@ -2,7 +2,7 @@
 
 html {
   background-color: #151425;
-  background-image: linear-gradient(to right, #0f4fff,  #00d0f8);
+  /* background-image: linear-gradient(to right, #0f4fff,  #00d0f8); */
   background-image: none;
   font-family: 'Share', cursive;
   color: #fff;

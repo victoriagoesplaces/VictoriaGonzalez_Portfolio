@@ -4,27 +4,32 @@
 }
 
 .hr {
-  background-image: linear-gradient(to right, #0f4fff,  #00d0f8);
+	background-image: linear-gradient(to right,#63b0f8,  #63b0f8);
 }
 
 .button {
   background-color: rgba(245, 245, 245, 0.24);
   background-image: none;
-  border-image: linear-gradient(to right, #0f4fff,  #00d0f8);
+  border-image: #63b0f8;
   border-image-slice: 1;
   border-radius: 0;
   border-style: solid;
   border-width: 1px;
   color:#63b0f8;
+  font-weight: bolder;
+  font-size: 10rem;
 }
 
 .aboutVG {
 	font-size: 1.0rem;
+	text-align:justify;
+	text-indent: 5%;
 }
 
 /* Social media icons */
 .social a, .socialTwo a {
   color:#63b0f8;
+  opacity: 1;
 }
 
 .social a:hover, .socialTwo a:hover {
@@ -342,7 +347,6 @@ input[type="submit"] {
 	text-transform: uppercase;
 	text-decoration: none;
 	white-space: nowrap;
-	background:  rgba(245, 245, 245, 0.24);
 	border-image: linear-gradient(to right, #0f4fff,  #00d0f8);
 	border-image-slice: 1;
 	border-radius: 0;
