@@ -2,7 +2,6 @@
 
 html {
   background-color: #151425;
-  /* background-image: linear-gradient(to right, #0f4fff,  #00d0f8); */
   background-image: none;
   font-family: 'Share', cursive;
   color: #fff;
@@ -169,15 +168,13 @@ a {
 }
 
 .socialTwo a {
-  align-items: center;
-
   font-size: 1.5rem;
   height: 2rem;
-  justify-content: center;
   opacity: 0.5;
   transition-property: opacity, transform;
   width: 2rem;
   will-change: opacity, transform;
+
 }
 
 .social a:hover {
