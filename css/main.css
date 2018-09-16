@@ -404,57 +404,93 @@ figure.effect-jazz:hover p {
 	transform: scale3d(1,1,1);
 }
 
+
 /* Media queries */
 
-@media screen and (max-width: 799px) {
-  .content {
-		padding: 0;
-		text-align: center;
-	}
-	.grid figure {
-		display: inline-block;
-		float: none;
-    width: 100%;
-  }
 .container {
-  width: 85%;
-  padding: 0;
-}
-}
-
-@media (min-width: 550px) {
-	.container {
-    width: 40%;
-    padding: 0;
-	}
-}
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  }
+  
+  .container:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
 
 @media screen and (min-width: 800px) {
 
   .content {
-		padding: 0 10px;
-		text-align: center;
-	}
-	.grid figure {
-		display: inline-block;
-		float: none;
-		margin: 10px auto;
-		width: 100%;
-	}
+        padding: 0 10px;
+        text-align: center;
+    }
+    .grid figure {
+        display: inline-block;
+        float: none;
+        margin: 10px auto;
+        width: 100%;
+    }
 }
 
+.content {
+  padding: 0 10px;
+  text-align: center;
+}
+/* Media queries */
+
+@media screen and (max-width: 799px) {
+.content {
+  padding: 0;
+  text-align: center;
+  margin: 5%;
+}
+.grid figure {
+  float: none;
+  width: 100%;
+  min-width: 300px;
+  max-width: 350px;
+  max-height: 300px;
+}
+figure.effect-jazz h2 {
+	padding-top: 4%;
+	-webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    font-size: 1.5rem;
+}
+
+figure.effect-jazz p {
+  font-size: 0.64em;
+}
+
+}
+
+
+@media (min-width: 550px) {
 .container {
-	position: relative;
-	width: 100%;
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 0 20px;
-	box-sizing: border-box;
+  width: 60%;
+  padding: 0;
+}
+.grid figure {
+  float: none;
+  width: 100%;
+  min-width: 300px;
+  max-width: 450px;
+  max-height: 360px;
 }
 
-.container:after {
-	content: "";
-	display: table;
-	clear: both;
-}
 
+figure.effect-jazz p {
+    font-size: 0.70em;
+  }
+
+figure.effect-jazz h2 {
+  padding-top: 5%;
+  -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    font-size: 1.9rem;
+  }
+}
