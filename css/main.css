@@ -415,7 +415,11 @@ figure.effect-jazz:hover p {
   padding: 0 20px;
   box-sizing: border-box;
   }
-  
+
+  .content {
+    padding: 0 10px;
+    text-align: center;
+  }
   .container:after {
   content: "";
   display: table;
@@ -436,10 +440,7 @@ figure.effect-jazz:hover p {
     }
 }
 
-.content {
-  padding: 0 10px;
-  text-align: center;
-}
+
 /* Media queries */
 
 @media screen and (max-width: 799px) {
@@ -451,9 +452,9 @@ figure.effect-jazz:hover p {
 .grid figure {
   float: none;
   width: 100%;
-  min-width: 300px;
-  max-width: 350px;
-  max-height: 300px;
+  min-width: 340px;
+  max-width: 360px;
+  max-height: 340px;
 }
 figure.effect-jazz h2 {
 	padding-top: 4%;
@@ -463,13 +464,13 @@ figure.effect-jazz h2 {
 }
 
 figure.effect-jazz p {
-  font-size: 0.64em;
+  font-size: 0.68em;
 }
 
 }
 
 
-@media (min-width: 550px) {
+@media (min-width: 600px) {
 .container {
   width: 60%;
   padding: 0;
@@ -484,7 +485,7 @@ figure.effect-jazz p {
 
 
 figure.effect-jazz p {
-    font-size: 0.70em;
+    font-size: 0.72em;
   }
 
 figure.effect-jazz h2 {
@@ -492,5 +493,10 @@ figure.effect-jazz h2 {
   -webkit-transition: -webkit-transform 0.35s;
     transition: transform 0.35s;
     font-size: 1.9rem;
+  }
+
+#about {
+  padding-top: 20%;
+  padding-bottom: 20%;
   }
 }
