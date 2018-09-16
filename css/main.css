@@ -418,12 +418,16 @@ figure.effect-jazz:hover p {
 
   .content {
     padding: 0 10px;
-    text-align: center;
+    /* text-align: center; */
   }
   .container:after {
   content: "";
   display: table;
   clear: both;
+  }
+
+  ul{
+    padding-left: 36%;
   }
 
 @media screen and (min-width: 800px) {
@@ -499,4 +503,8 @@ figure.effect-jazz h2 {
   padding-top: 20%;
   padding-bottom: 20%;
   }
+}
+
+.footer {
+  text-align: center;
 }
