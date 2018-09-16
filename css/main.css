@@ -242,32 +242,6 @@ a {
 
 
 
-/* Grid
-********************************************************************* */  
-.container {
-  position: relative;
-	width: 100%;
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 0 20px;
-	/* box-sizing: border-box; */
-}
-
-/* For devices larger than 400px */
-@media (min-width: 400px) {
-  .container {
-    width: 85%;
-    padding: 0;
-  }
-  }
-  
-  /* For devices larger than 550px */
-  @media (min-width: 550px) {
-  .container {
-    width: 80%;
-  }
-}
-
 /* Portfolio Section (images)  */
 .grid {
 	position: relative;
@@ -431,8 +405,33 @@ figure.effect-jazz:hover p {
 }
 
 /* Media queries */
-@media screen and (max-width: 50em) {
-	.content {
+
+@media screen and (max-width: 799px) {
+  .content {
+		padding: 0;
+		text-align: center;
+	}
+	.grid figure {
+		display: inline-block;
+		float: none;
+    width: 100%;
+  }
+.container {
+  width: 85%;
+  padding: 0;
+}
+}
+
+@media (min-width: 550px) {
+	.container {
+    width: 40%;
+    padding: 0;
+	}
+}
+
+@media screen and (min-width: 800px) {
+
+  .content {
 		padding: 0 10px;
 		text-align: center;
 	}
@@ -442,5 +441,20 @@ figure.effect-jazz:hover p {
 		margin: 10px auto;
 		width: 100%;
 	}
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+.container:after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
