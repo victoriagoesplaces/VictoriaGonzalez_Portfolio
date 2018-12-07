@@ -150,7 +150,7 @@ a {
 
 .social li {
   height: 2rem;
-  margin-right: 0.5rem;
+  margin-right: 0rem;
   text-align: center;
   width: 2rem;
 }
@@ -427,7 +427,7 @@ figure.effect-jazz:hover p {
   }
 
   ul{
-    padding-left: 36%;
+    padding-left: 32.5%;
   }
 
 @media screen and (min-width: 800px) {
